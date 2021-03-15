@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main right right right'
+    'footer footer footer footer footer footer';
+  grid-gap: 5px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(196, 50, 50, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+li{
+    padding-left: 5px;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align: center;">Grid Layout - 2</h1>
+
+<p>This grid layout contains six columns and three rows:</p>
+
+<div class="grid-container">
+  <div class="item1">
+      Header
+  </div>
+  <div class="item3">Article</div>  
+  <div class="item4">Aside</div>
+  <div class="item5">Footer</div>
+</div>
+
+</body>
+</html>
