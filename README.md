@@ -7,4 +7,4 @@ Various Template layout using - Grid , Flexbox  and How all Things Work
 
 # Grid Layout - 2
 ------------------
-![Grid2](https://user-images.githubusercontent.com/78407424/111205216-00accc80-85ed-11eb-9deb-f20309818648.png)
+![Grid3](https://user-images.githubusercontent.com/78407424/111205627-71ec7f80-85ed-11eb-8552-54fb592ca2cd.png)
